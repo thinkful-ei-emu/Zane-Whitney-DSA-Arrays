@@ -1,0 +1,37 @@
+===== Number 2 - push() method =====
+
+What is the length, capacity, and memory
+address of your array?
+
+arr.push(3)
+>> length: 1
+>> capacity: 3
+>> memory: pointer 0
+
+arr.push(5), arr.push(15)... (5 pushes)
+>> length: 5 (because we're pushing 5 things)
+
+>> capacity: 12 (we broke capacity, every time we break capacity we triple capacity)
+
+>> memory: pointer 3 (every time we break capacity, it takes where the pointer was previously and adds the length of the array once it breaks)
+
+===== Number 3 - pop() method =====
+
+What is the length, capacity, and address of your array?
+
+>> length: 2 (there are two active)
+>> capacity: 12 (we are not decreasing our capacity, even though our length (or active blocks) is decreasing)
+>> pointer: 3 (the pointer is still at 3 because the capacity is still 12, even though our length decreases)
+
+===== Number 4 - Understanding more =====
+Print the 1st item in the arr: arr.get(0);
+
+Empty the array and add 1 item:
+
+Print out the 1 added item.  What is the result?  Explain.
+
+What is the purpose of the _resize() function in your Array class
+
+
+
+

@@ -87,11 +87,8 @@ function main(){
   arr.pop();
   
   
-  
-  
+  console.log(arr.get(0));
 
-
-  console.log(arr);
 }
 
 
